@@ -19,6 +19,7 @@ Dict::Add('EN US', 'English', 'English', array(
 	'Class:SimCard+' => 'SIM Card to link to a Mobile Phone or Tablet',
 	'Class:SimCard/Attribute:sim' => 'SIM number',
 	'Class:SimCard/Attribute:sim+' => 'Number of the SIM card',
+	'Class:SimCard/Attribute:functionalcis_list' => 'CIs',
 	'Class:SimCard/Attribute:functionalci_id' => 'Device',
 	'Class:SimCard/Attribute:functionalci_id+' => 'The device which uses this SIM card',
 	'Class:SimCard/Attribute:phone_number' => 'Mobile phone number',
