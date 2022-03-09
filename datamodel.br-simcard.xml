@@ -270,7 +270,7 @@ Notice Giving By as Date
 						<item id="status">
 							<rank>31</rank>
 						</item>
-						<item id="location">
+						<item id="location_id">
 							<rank>32</rank>
 						</item>
 					</items>
