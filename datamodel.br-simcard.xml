@@ -166,9 +166,6 @@ Notice Giving By as Date
 										<item id="type">
 											<rank>53</rank>
 										</item>
-										<item id="functionalci_id">
-											<rank>34</rank>
-										</item>
 									</items>
 								</item>
 								<item id="fieldset:SimCard:numbers">
@@ -250,9 +247,6 @@ Notice Giving By as Date
 						</item>
 						<item id="location_id">
 							<rank>32</rank>
-						</item>
-						<item id="functionalci_id">
-							<rank>34</rank>
 						</item>
 					</items>
 				</search>
