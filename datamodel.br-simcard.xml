@@ -55,9 +55,12 @@
 					<sql>functionalci_id</sql>
 					<is_null_allowed>true</is_null_allowed>
 					<allow_target_creation>true</allow_target_creation>
-					<on_target_delete>DEL_AUTO</on_target_delete>
+					<on_target_delete>DEL_MANUAL</on_target_delete>
 					<target_class>FunctionalCI</target_class>
-					<filter>SELECT FunctionalCI WHERE finalclass IN ('MobilePhone', 'PC', 'Tablet')</filter>
+				</field>
+				<field id="functionalci_name" xsi:type="AttributeExternalField">
+					<extkey_attcode>functionalci_id</extkey_attcode>
+					<target_attcode>name</target_attcode>
 				</field>
 				<field id="phone_number" xsi:type="AttributePhoneNumber">
 					<sql>phone_number</sql>
