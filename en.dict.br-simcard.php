@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @copyright   Copyright (C) 2020 Jeffrey Bostoen
  * @license     https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -12,8 +13,8 @@ Dict::Add('EN US', 'English', 'English', array(
 	//	'Class:SomeClass' => 'Class name',
 	//	'Class:SomeClass+' => 'More info on class name',
 	//	'Class:SomeClass/Attribute:some_attribute' => 'your translation for the label',
-    //	'Class:SomeClass/Attribute:some_attribute/Value:some_value' => 'your translation for a value',
-    //	'Class:SomeClass/Attribute:some_attribute/Value:some_value+' => 'your translation for more info on the value',
+	//	'Class:SomeClass/Attribute:some_attribute/Value:some_value' => 'your translation for a value',
+	//	'Class:SomeClass/Attribute:some_attribute/Value:some_value+' => 'your translation for more info on the value',
 	'Class:SimCard' => 'SIM Card',
 	'Class:SimCard+' => 'SIM Card to link to a Mobile Phone or Tablet',
 	'Class:SimCard/Attribute:sim' => 'SIM number',
@@ -39,7 +40,7 @@ Dict::Add('EN US', 'English', 'English', array(
 	'Class:SimCard/Attribute:type/Value:micro' => 'Micro',
 	'Class:SimCard/Attribute:type/Value:micro_to_nano' => 'Micro - can be cut to nano',
 	'Class:SimCard/Attribute:type/Value:nano' => 'Nano',
-	
+
 	'SimCard:info' => 'General info',
 
 	'Class:MobilePhone' => 'Mobile Phone',
@@ -47,6 +48,5 @@ Dict::Add('EN US', 'English', 'English', array(
 	'Class:MobilePhone/Attribute:sim_card_type/Value:regular' => 'Regular',
 	'Class:MobilePhone/Attribute:sim_card_type/Value:micro' => 'Micro',
 	'Class:MobilePhone/Attribute:sim_card_type/Value:nano' => 'Nano',
-	
-));
 
+));
