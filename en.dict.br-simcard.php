@@ -1,9 +1,9 @@
 <?php
 
 /**
- * @copyright   Copyright (C) 2020 Jeffrey Bostoen
+ * @copyright
  * @license     https://www.gnu.org/licenses/gpl-3.0.en.html
- * @version     2020-05-06 13:36:24
+ * @version
  *
  * Localized data
  */
@@ -19,9 +19,7 @@ Dict::Add('EN US', 'English', 'English', array(
 	'Class:SimCard+' => 'SIM Card to link to a Mobile Phone or Tablet',
 	'Class:SimCard/Attribute:sim' => 'SIM number',
 	'Class:SimCard/Attribute:sim+' => 'Number of the SIM card',
-	'Class:SimCard/Attribute:contact_id' => 'Contact',
-	'Class:SimCard/Attribute:contact_id+' => 'The person or team using this SIM card',
-	'Class:SimCard/Attribute:functionalci_id' => 'Mobile phone or tablet',
+	'Class:SimCard/Attribute:functionalci_id' => 'Device',
 	'Class:SimCard/Attribute:functionalci_id+' => 'The device which uses this SIM card',
 	'Class:SimCard/Attribute:phone_number' => 'Mobile phone number',
 	'Class:SimCard/Attribute:phone_number+' => 'The mobile number linked to this SIM card',
@@ -35,18 +33,21 @@ Dict::Add('EN US', 'English', 'English', array(
 	'Class:SimCard/Attribute:puk2+' => 'PUK 2 of the SIM card',
 	'Class:SimCard/Attribute:type' => 'Type',
 	'Class:SimCard/Attribute:type/Value:regular' => 'Regular',
-	'Class:SimCard/Attribute:type/Value:regular_to_micro' => 'Regular - can be cut to micro',
-	'Class:SimCard/Attribute:type/Value:regular_to_nano' => 'Regular - can be cut to nano',
 	'Class:SimCard/Attribute:type/Value:micro' => 'Micro',
-	'Class:SimCard/Attribute:type/Value:micro_to_nano' => 'Micro - can be cut to nano',
 	'Class:SimCard/Attribute:type/Value:nano' => 'Nano',
+	'Class:SimCard/Attribute:type/Value:esim' => 'eSIM',
+	'Class:SimCard/Attribute:contract_start_date' => 'Contract starts',
+	'Class:SimCard/Attribute:contract_start_date+' => '',
+	'Class:SimCard/Attribute:contract_end_date' => 'Contract ends',
+	'Class:SimCard/Attribute:contract_end_date+' => '',
+	'Class:SimCard/Attribute:termination_till_date' => 'Termination till',
+	'Class:SimCard/Attribute:termination_till_date+' => '',
+	'Class:SimCard/Attribute:extended_till_date' => 'Extended till',
+	'Class:SimCard/Attribute:extended_till_date+' => '',
+	'Class:SimCard/Attribute:notice_by_date' => 'Notice giving by',
+	'Class:SimCard/Attribute:notice_by_date+' => '',
 
 	'SimCard:info' => 'General info',
-
-	'Class:MobilePhone' => 'Mobile Phone',
-	'Class:MobilePhone/Attribute:sim_card_type' => 'SIM card type',
-	'Class:MobilePhone/Attribute:sim_card_type/Value:regular' => 'Regular',
-	'Class:MobilePhone/Attribute:sim_card_type/Value:micro' => 'Micro',
-	'Class:MobilePhone/Attribute:sim_card_type/Value:nano' => 'Nano',
-
+	'SimCard:numbers' => 'Card info',
+	'SimCard:date' => 'Contract dates',
 ));
